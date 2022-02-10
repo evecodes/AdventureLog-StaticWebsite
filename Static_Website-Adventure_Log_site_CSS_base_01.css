@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1 {
+	color: #fff;
+	font-family: "Open Sans";
+	font-size: 150px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 0.0);
+	padding-top: 100px;
+}
+	
+h2 {
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	font-family: "myriad pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: rgba(255, 255, 255, 0.0);
+	padding-top: 10px;
+}
+
+h3 {
+	color: #aaa;
+	font-family: "myriad pro", sans-serif;
+	font-size: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+h4 {
+	color: #000;
+	font-family: "myriad pro", sans-serif;
+	font-size: 9px;
+	margin: 10px;
+	overflow: auto;
+	display: inline;
+	position: fixed;
+	right: 0;
+	bottom: 1px;
+	text-align: right;
+}
+
+h5 {
+	font-size: 30px;
+	font-family: "Open Sans", sans-serif;
+	color: #aaa;
+	text-align: right;
+}
+
+h6 {
+	color: #aaa;
+	font-family: "myriad pro", sans-serif;
+	font-size: 9px;
+	color: #fff;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+img {
+	width: 500px;
+	height: 330px;
+	margin-bottom: 20px;
+	object-fit: cover;
+}
+
+p {
+	color: #aaa;
+	font-family: "myriad pro", sans-serif;
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 50px;
+}
+   
+nav {
+	text-align:center;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 9px;
+	border: 2px solid #aaa;
+	border-style: none none solid none;
+	width: 1100px;
+}
+
+a {
+	padding: 10px;
+	font-family: "myriad pro", sans-serif;
+	font-size: 18px;
+	color: #aaa;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+a:hover {
+	background-color: #534b7f;
+	color: #fff
+}
+
+.return:hover {
+	background-color: #534b7f;
+	color: #fff
+}
+
+a, .return {
+	text-decoration: none;
+}
+
+.return {
+	display: inline-block;
+	color: #fff;
+	font-family: "myriad pro", sans-serif;
+	font-size: 18px;
+	margin-top: 30px;
+	background-color: #aaa;
+	border-radius: 4px;
+}
+	
+.banner {
+	height: 400px;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/36/Madagascar_highland_plateau.jpg");
+	background-size: cover;
+	background-position: bottom;
+	overflow: auto;
+}
+
+.journalentry {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 600px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	padding: 50px;
+	background-color: #fff;
+	overflow: auto;
+	border: 2px solid #aaa;
+	text-align: center;
+}
+
+.sideblock {
+	display: inline-block;
+	box-sizing: border-box;
+	margin-top: 100px;
+}
+
+.fullblock {
+	display: flex;
+	width: 750px;
+	margin: auto;
+}
+
+.imageboxtext {
+	position: relative;
+	width: 500px;
+	height: 330px;
+	margin-bottom: 20px;
+}
+
+.textcredit {
+	display: inline-block;
+	position: absolute;
+	text-align: right;
+	z-index: 2;
+	bottom: 1px;
+	right: 1px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .2s, visibility .2s;
+}
+
+.imageboxtext:hover .textcredit {
+  visibility: visible;
+  opacity: 1;
+}
